@@ -50,24 +50,30 @@ print(numara)
 var i = 13
 var d = 51.1907
 
-var sonuc_1 = Double(i)
-var sonuc_2 = Int(d)
+var sonuc_1 = Double(i) // 13.0
+var sonuc_2 = Int(d) // 51
 print(sonuc_1)
 print(sonuc_2)
 
 //Sayısaldan Metine
-var sonuc_3 = String(i) //"13"
-var sonuc_4 = String(d) //"51.1907"
+var sonuc_3 = String(i) // "13"
+var sonuc_4 = String(d) // "51.1907"
 print(sonuc_3)
 print(sonuc_4)
 
 //Metinden sayısala
 //Metinden sayısala
-var yazi = "34."
+var yazi = "34.5"
 
 if let sonuc5 = Int(yazi) {
     print(sonuc5)
 }else{
     print("Dönüşüm hatası")
 }
+
+
+
+
+
+
 
